@@ -13,6 +13,7 @@ public class Main {
             if (select == 'Н') {
                 Game.start();
             } else if (select == 'В') {
+                scanner.close();
                 System.exit(0);
             } else {
                 System.out.println("Сделайте выбор ещё раз");
